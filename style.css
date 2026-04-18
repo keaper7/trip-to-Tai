@@ -5,9 +5,13 @@
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .hero-section {
     position: relative;
-    background: url("images/Tai.jpg");
+    background: url("images/Tai.webp");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -94,7 +98,7 @@
 
 
 .end-section {
-    background: url(images/Tai-2.jpg);
+    background: url("images/Tai-2.webp");
     background-position: center;
     height: 100vh;
     position: relative;
